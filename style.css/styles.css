@@ -27,3 +27,17 @@
 #style-5{
     margin-left: 150px;
 }
+.save{
+    margin-top:10px ;
+}
+.percent{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: medium;
+}
+.button-2{ 
+    margin-left: 20px;
+    background:rgb(69, 69, 211) ;
+    font-size: 20px;
+    color: white;
+}

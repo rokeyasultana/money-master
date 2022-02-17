@@ -22,19 +22,20 @@
            <h3 class="style">Income</h3>
           
            <label class="style-3">Income:</label>
-           <input id="income-value" type="text" class="style-2"  >
+           <input id="income-value" type="text" class="style-2" type="number"  >
            <br>
 
            <!-- expenses -->
            <h3 class="style">Expenses</h3>
            <label  class="style-3">Food:</label>
-           <input id="food-value" class="style-2"  >
+           <input id="food-value" class="style-2"  type="number" >
            <br>
            <label class="style-3">Rent:</label>
-           <input id="rent-value" class="style-2"  >
+           <input id="rent-value" class="style-2" type="number"  >
            <br>
            <label class="style-3">Clothes:</label>
-           <input id="clothes-value" class="style-2">
+           <input id="clothes-value" class="style-2" type="number">
+           <br>
         
            <!-- calculation -->
            <button  id="button" class="buttons" >Calculate</button>
@@ -42,14 +43,35 @@
            <!-- Expenses -->
            <div id="style-4" class="d-flex ">
             <h3 class="">Total Expenses:</h3>
-            <h4 id="expenses"> $$</h4>
+            <h4 id="expenses" class=" ms-2">00 </h4>
         </div>
 
         <!--balance  -->
            <div id="style-5" class="d-flex ">
             <h3 class="">Balance:</h3>
-            <h4 id="balance"> $$</h4>
+            <h4 id="balance" class="ms-2 "> 00 </h4>
+          </div>
+          
+          <!-- save amount -->
+          <div id="style-5" class="d-flex mt-2">
+            <h3 class="save">Save:</h3>
+            <h4 id="save-amount" class="mt-2  ms-2  bg-secondary">20</h4>
+            <h6 class="percent">%</h6>
+            <button id="button-save" class="button-2">Save</button>
+          </div>
+          <br>
+          <div id="style-4" class="d-flex ">
+            <h3 >Saving Amount:</h3>
+            <h4 id="amount" class=" ms-2">00 </h4>
         </div>
+        <div id="style-4" class="d-flex ">
+            <h3 class="">Reamaing Balance:</h3>
+            <h4 id="reaming" class=" ms-2">00 </h4>
+        </div>
+        <div class="notify-section">
+          <p id="notify-fail" class="notify">❌ Pin Didn't Match, Please try again</p>
+          <p id="notify-success" class="notify">✅ Pin Matched... Secret door is opening for you</p>
+      </div>
           </div>
         </div>
       </div>
