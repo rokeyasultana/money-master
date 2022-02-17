@@ -1,9 +1,10 @@
 const button= document.getElementById('button').addEventListener('click',function(){
 
-    // income
+     // income
     const incomeValue = document.getElementById('income-value').value;
     const floatIncome = parseFloat(incomeValue );
-    // console.log(incomeValue);
+  // console.log(incomeValue);
+  
         // food
         const foodValue = document.getElementById('food-value').value;
         const floatFoodValue = parseFloat( foodValue);
@@ -34,7 +35,7 @@ const button= document.getElementById('button').addEventListener('click',functio
     totalBalance.innerText = floatIncome - calculate;
     console.log(totalBalance);
 
-// saving
+    // saving
 
     const buttons = document.getElementById('button-save').addEventListener('click',function(){
 
